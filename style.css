@@ -70,3 +70,37 @@ body{
     width: 100px;
     border-radius: 50px;
 }
+@media (max-width:760px) {
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding-top: 50px;
+    }
+    .dark-mode{
+        display: none;
+    }
+    .container input{
+        font-size: 50px;
+    }
+    .container input::placeholder{
+        font-size: 50px;
+    }
+    .container div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: max-content;
+    }
+    .container div button{
+        width: 70px;
+        height: 70px;
+        font-size: 20px;
+        margin: 10px 3px;
+    }
+    .container div .zero{
+        width: 150px;
+    }
+}

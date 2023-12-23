@@ -8,6 +8,7 @@ dark.addEventListener("click",() => {
     let randomRed = Math.random() * 255;
     let randomBlue = Math.random() * 255;
     document.querySelector("body").style.background = `rgb(255,${randomBlue},${randomRed})`
+    // document.querySelector("body").style.background = `linear-gradient(to top,${randomBlue},#120e16)`
 })
 
 arr.forEach((btn) => {
